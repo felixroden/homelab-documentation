@@ -1,0 +1,15 @@
+services:
+  mkdocs:
+    container_name: mkdocs
+    image: squidfunk/mkdocs-material:latest
+    env_file: .env
+    networks:
+      - caddy
+    restart: unless-stopped
+    #ports:
+      #- "8000:8000"
+    volumes:
+      - "${PWD}:/docs"
+networks:
+  caddy:
+    external: true
