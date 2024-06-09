@@ -3,6 +3,7 @@ site_url: https://docs.rodenlab.com
 nav:
   - Home: index.md
   - About: about.md
+  - Setup: setup.md
 
 theme:
   name: 'material'

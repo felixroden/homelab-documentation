@@ -8,7 +8,7 @@ If the terminal ouputs:
 ```bash
 git version <version_number>
 ```
-[![Terminal Screenshot](attachements/git-version-terminal-screenshot.png)](git-version-terminal-screenshot)
+![Terminal Screenshot](attachements/git-version-terminal-screenshot.png)
 
 Then Git is already installed on your machine. Else input the following command to install Git:
 
