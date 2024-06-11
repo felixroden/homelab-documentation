@@ -1,4 +1,4 @@
-felixroden/homelab-documentation
+# felixroden/homelab-documentation
 
 ## Setting Up the Wiki
 
