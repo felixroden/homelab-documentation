@@ -1,12 +1,18 @@
-site_name: Rodenlab docs
+site_name: HomeLab docs
 site_url: https://docs.rodenlab.com
 nav:
   - Home: index.md
   - About: about.md
   - Setup: setup.md
 
+repo_url: https://github.com/felixroden/homelab-documentation
+repo_name: felixroden/homelab-documentation
+
 theme:
   name: 'material'
+  features:
+    - content.code.copy
+    - content.code.annotate
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -21,3 +27,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
