@@ -1,7 +1,5 @@
 # felixroden/homelab-documentation
 
-## Setting Up the Wiki
-
 This repository contains a `docker-compose.yml` file for setting up the wiki using [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) and [Caddy](https://github.com/caddyserver/caddy) for reverse proxy. Follow the instructions below to get started without the reverse proxy.
 
 ### Prerequisites
