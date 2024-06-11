@@ -7,12 +7,14 @@ nav:
 
 repo_url: https://github.com/felixroden/homelab-documentation
 repo_name: felixroden/homelab-documentation
-
 theme:
   name: 'material'
   features:
     - content.code.copy
     - content.code.annotate
+
+  logo: attachments/server (1).png
+
   palette:
     # Palette toggle for light mode
     - scheme: default

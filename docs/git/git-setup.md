@@ -56,7 +56,7 @@ You should see output similar to:
 ``` bash
 git version 2.x.x
 ```
-![Terminal Screenshot](attachements/git-version-terminal-screenshot.png)
+![Terminal Screenshot](../attachements/git-version-terminal-screenshot.png)
 
 
 ## Configuration
