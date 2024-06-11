@@ -51,7 +51,7 @@ This repository contains a `docker-compose.yml` file for setting up the wiki usi
 
 If you prefer not to use Caddy, you can expose the MkDocs container port directly.
 
-1. Uncomment the ports section in the `docker-compose.yml` file:
+1. Uncomment the ports section in the `docker-compose.yaml` file:
   ```yaml
    ports:
      - "8000:8000"
